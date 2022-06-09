@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Praneetha Gobburi</title>
-    </head>
-    <body>
-         <!-- Basic info animination will be typed out--> 
-         <div id = "Welcome">
-           <h1>Praneetha Gobburi</h1>
-           <h3>Software Engineer</h3>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Praneetha Gobburi</title>
+</head>
+<body>
+        <!-- Basic info animination will be typed out--> 
+    <section class = "header">
+        <div class = "intro_text">
+            <h1>Praneetha Gobburi</h1>
+            <h3>Software Engineer</h3>
         </div>
+    </section>
 
-        <div id = "intro">
-            <h3 id = "tab_1">A Little About Me</h3>
-            <p id = "about_me">     I am a student at McNeeese State University, pursuing a bachelor’s in Computer Science.<br>
-                                I enjoy reading and cooking in my spare time.I enjoy many sports including soccer, tennis, <br>
-                                voleyball, swimming, badminton, and martial arts. I am also actively learning to play the guitar<br>
-                                and improving my programming skills by developing small projects.
-            </p>
-        </div>
+    <div id = "intro">
+        <h3 id = "tab_1">A Little About Me</h3>
+        <p id = "about_me">     I am a student at McNeeese State University, pursuing a bachelor’s in Computer Science.<br>
+                            I enjoy reading and cooking in my spare time.I enjoy many sports including soccer, tennis, <br>
+                            voleyball, swimming, badminton, and martial arts. I am also actively learning to play the guitar<br>
+                            and improving my programming skills by developing small projects.
+        </p>
+    </div>
 
-        <div id = "education">
-            <h3 id = "tab_2">Education</h3>
-            <img src="data:image/png;base64,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"
-            alt="A Graduation cap" width="150" height="130"/>
-            <ul id = "edu">
-                <li>McNeese State University</li>
-                <li>B.S in Computer Science        GPA: 3.80</li>
-                <li>Minor in Mathematics</li>
-                <li><em>January 2019 - December 2022</em></li>
-            </ul>
-        </div>
+    <div id = "education">
+        <h3 id = "tab_2">Education</h3>
+        <img src="data:image/png;base64,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"
+        alt="A Graduation cap" width="150" height="130"/>
+        <ul id = "edu">
+            <li>McNeese State University</li>
+            <li>B.S in Computer Science        GPA: 3.80</li>
+            <li>Minor in Mathematics</li>
+            <li><em>January 2019 - December 2022</em></li>
+        </ul>
+    </div>
 
-        <div id = "contact_ixnfo">
-            <h3 id = "tab_3">Contact</h3>
-            <div id = "contact">
-                <p>Reach out with:</p>
-                <p>praneethag00@gmail.com</p>
-                <p>337-499-1128</p>
-                <h4>Social:</h4>
-                <a href="https://www.linkedin.com/in/praneetha-gobburi/" target="_blank">LinkedIn</a>
-            </div>
+    <div id = "contact_ixnfo">
+        <h3 id = "tab_3">Contact</h3>
+        <div id = "contact">
+            <p>Reach out with:</p>
+            <p>praneethag00@gmail.com</p>
+            <p>337-499-1128</p>
+            <h4>Social:</h4>
+            <a href="https://www.linkedin.com/in/praneetha-gobburi/" target="_blank">LinkedIn</a>
         </div>
-        <p>This website is WIP.</p>
-    </body>
+    </div>
+    <p>This website is WIP.</p>
+</body>
 </html>
